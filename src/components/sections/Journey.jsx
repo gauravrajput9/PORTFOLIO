@@ -1,0 +1,2 @@
+import { journeyItems } from '../../data/journey.js'
+export default function Journey(){return <section className="section journey" id="journey"><p className="eyebrow">Journey / 05</p><h2>Step by step,<br/><span>with intention.</span></h2><ol>{journeyItems.map((item,index)=><li key={item}><span>0{index+1}</span><p>{item}</p></li>)}</ol><div className="education"><p><b>Education</b><br/>B.Tech, Computer Science & Engineering<br/>Quantum University</p><p><b>Academic record</b><br/>Class X — 84.05% · Class XII — 79.2%</p></div></section>}
